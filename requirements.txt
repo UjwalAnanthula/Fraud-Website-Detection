@@ -10,4 +10,3 @@ whois==0.9.13
 gunicorn==20.1.0
 setuptools>=58.0.0
 wheel
-pip-compile requirements.txt
