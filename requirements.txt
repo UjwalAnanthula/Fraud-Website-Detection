@@ -11,4 +11,4 @@ gunicorn==20.1.0
 build
 setuptools>=58.0.0
 wheel
-gunicorn
+gunicorn==19.7.1
