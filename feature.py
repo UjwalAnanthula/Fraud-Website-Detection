@@ -10,6 +10,7 @@ from datetime import date, datetime
 import time
 from dateutil.parser import parse as date_parse
 from urllib.parse import urlparse
+from urllib.parse import quote as url_quote
 
 class FeatureExtraction:
     features = []
