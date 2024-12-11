@@ -1,7 +1,6 @@
 gunicorn==22.0.0
 beautifulsoup4==4.9.3
 Flask==2.0.2
-Werkzeug==3.0.4
 googlesearch_python==1.0.1
 numpy==2.1.2
 pandas==2.2.3
