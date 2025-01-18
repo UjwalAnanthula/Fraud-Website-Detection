@@ -53,8 +53,6 @@ class FeatureExtraction:
         self.features.append(self.Hppts())
         self.features.append(self.DomainRegLen())
         self.features.append(self.Favicon())
-        
-
         self.features.append(self.NonStdPort())
         self.features.append(self.HTTPSDomainURL())
         self.features.append(self.RequestURL())
@@ -65,7 +63,6 @@ class FeatureExtraction:
         self.features.append(self.AbnormalURL())
         self.features.append(self.WebsiteForwarding())
         self.features.append(self.StatusBarCust())
-
         self.features.append(self.DisableRightClick())
         self.features.append(self.UsingPopupWindow())
         self.features.append(self.IframeRedirection())
